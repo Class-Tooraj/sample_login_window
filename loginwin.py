@@ -131,7 +131,6 @@ class LoginWindow(qtw.QWidget):
         # Signal's
         self.cancel_button.clicked.connect(self.close)
         self.submit_button.clicked.connect(self.authenticate)
-        self.authenticated.connect(self.clean_input)
 
         # Code End
         self.show()     # Show LoginWindow
